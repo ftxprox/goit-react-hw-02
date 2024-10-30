@@ -49,7 +49,7 @@ function App() {
   const positiveFeedbackPercentage = calculatePositiveFeedbackPercentage();
 
   return (
-    <>
+    <div className="container">
       <h1>Sip Happens Café</h1>
       <p>We value your feedback. Please let us know about your experience.</p>
       <Options leaveFeedback={handleFeedback} resetFeedback={clearFeedback} totalFeedback={totalFeedback} />
@@ -58,7 +58,7 @@ function App() {
       ) : (
         <Notification message="No feedback given yet." />
       )}
-    </>
+    </div>
   );
 }
 
