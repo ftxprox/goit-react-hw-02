@@ -1,0 +1,31 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 28px;
+    color: black;
+    margin: 0;
+}
+
+.online {
+    font-size: 24px;
+    color: green;
+    margin: 0;
+}
+
+.offline {
+    font-size: 24px;
+    color: red;
+    margin: 0;
+}
